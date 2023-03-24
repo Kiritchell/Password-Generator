@@ -86,14 +86,13 @@ a{
 
 /* Buttons */
 .buttons{display:flex;
- margin:auto;
-width:500px;}
+ margin-left:20px;
+margin-right:20px;}
 
 .button{
   font-family:inherit;
   justify-content: center;
-  width:fit-content;
-  max-width: 300px;
+  width:300px;
   color:#4a4e69;
   background-color:#f2e9e4;
   text-shadow:2px 2px 1px #c9ada7;
@@ -141,4 +140,5 @@ font-size:3em;}
 
 .p-normal{font-size:1.8em;}
 
+.buttons{flex-direction: column;}
 }
